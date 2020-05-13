@@ -27,7 +27,7 @@ export class AuthService {
             {
                 email: email,
                 password: password,
-                returnSecureTocen: true
+                returnSecureToken: true
             }).pipe(
                 catchError(this.handleError),
                 tap( data => {
@@ -41,7 +41,7 @@ export class AuthService {
             {
                 email: email,
                 password: password,
-                returnSecureTocen: true
+                returnSecureToken: true
             }).pipe(
                 catchError(this.handleError),
                 tap( data => {
